@@ -15,6 +15,8 @@ node{
       to: 'gopinath.m@prodapt.com'
   }
  
+  
+  
   stage('Slack Notification'){
     slackSend baseUrl: 'https://hooks.slack.com/services/', 
       channel: 'test_jenkins_1', color: 'good', 
